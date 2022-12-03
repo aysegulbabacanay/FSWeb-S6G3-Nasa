@@ -1,11 +1,49 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+html, body{
+  min-height: 100vh;
+
+}
+.content {
+max-width: 800px;
+width: 96%;
+}
+.photo-img{
+ /* height: 320px;
+ background-color: #e5e5e5 */
+ 
+}
+.photo-img img{
+  width: 100% ;
+  aspect-ratio: 1.4;
+}
+.buttons{
+  padding: 1em 0;
+}
+
+.buttons button{
+  border: 1px solid;
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 3px;
+  margin-right: 8px;
+  cursor: pointer; /*parmak işareti ekleme*/
+}
+.selected {
+  background-color: #808080;
+  color: #fff;
+  font-weight: bolder;
+  
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
